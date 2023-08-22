@@ -1,0 +1,11 @@
+head(mtcars)
+p=mtcars$mpg
+u=mtcars$qsec
+
+plot(p,type = "o",
+     col = "red", 
+     xlab = "mpg", 
+     ylab = "cyl",     
+     main = "line chart for mtcars")
+lines(u, type = "o", 
+      col = "green")
