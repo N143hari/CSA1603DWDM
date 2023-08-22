@@ -1,0 +1,15 @@
+age=c("5-6","7-8","9-10")
+A=c(18,2,20)
+B=c(22,28,10)
+C=c(20,40,40)
+table=data.frame(age, A,B,C)
+table
+co=cov(B,C)
+co
+table1=data.frame(A, B, C)
+co=cov(table1)
+co
+cr=cor(B,C)
+cr
+cr=cor(table1)
+cr
