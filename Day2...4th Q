@@ -1,0 +1,23 @@
+min=c(50000)
+max=c(100000)
+a=c(80)
+print("min max normalization")
+min_max=(a-min)/(max-min)
+min_max
+
+a=c(200,300,400,500,600,1000)
+min=min(a)
+min
+max=max(a)
+max
+print("min max normalization")
+min_max=(a-min)/(max-min)
+min_max
+
+print("zscore normalization")
+me=mean(a) 
+me
+std=sd(a)
+std
+z_score=(a-me)/std
+z_score
