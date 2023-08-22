@@ -1,0 +1,7 @@
+a=c(9,23,25,12,11,6,7,8,9,10)
+me=mean(a)
+me
+md=median(a)
+md
+mode_a<-names(table(a))[table(a)==max(table(a))]
+mode_a
