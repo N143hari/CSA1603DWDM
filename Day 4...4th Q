@@ -1,0 +1,10 @@
+person<-c("gopi","babu","baby","gopal","krishna","jai","dev","malini","hema","anu")
+veg<-c(7)
+non_veg<-c(3)
+if(veg<non_veg)
+{
+  print("non_veg count is greater")
+}else
+{
+  print("veg count is greater")
+}
