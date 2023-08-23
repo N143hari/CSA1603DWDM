@@ -1,0 +1,17 @@
+@relation transactionID
+@attribute a{true,false}
+@attribute b{true,false}
+@attribute c{true,false}
+@attribute d{true,false}
+@attribute e{true,false}
+@data
+true false false true true
+true true true false true
+true true false true true
+true false true true true
+false true true false true
+false true false true true
+false false true true false
+true true true false false
+true false false true true
+true true true false false
