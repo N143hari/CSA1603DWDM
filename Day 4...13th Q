@@ -1,0 +1,18 @@
+@relation items
+@attribute m{y,n}
+@attribute o{y,n}
+@attribute n{y,n}
+@attribute k{y,n}
+@attribute e{y,n}
+@attribute y{y,n}
+@attribute d{y,n}
+@attribute a{y,n}
+@attribute u{y,n}
+@attribute c{y,n}
+@attribute i{y,n}
+@data
+y,y,y,y,y,y,n,n,n,n,n
+n,y,y,y,y,y,y,n,n,n,n
+y,n,n,y,y,n,n,y,n,n,n
+y,n,n,y,n,y,n,n,y,y,n
+n,y,n,y,y,n,n,n,n,y,y
