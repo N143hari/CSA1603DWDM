@@ -1,0 +1,18 @@
+@relation market
+@attribute milk{true false}
+@attribute beer{true false}
+@attribute diapers{true false}
+@attribute bread{true false}
+@attribute butter{true false}
+@attribute cookies{true false}
+@data
+true true true false false false
+true false false true true false
+true false true false false true
+false false false true true true
+false true true false false true
+true false true true true false
+false false true true true false
+false true true false false false
+true false true true true false
+false true false false false true
