@@ -1,0 +1,11 @@
+@relation supermarket
+@attribute customer_id numeric
+@attribute gender{male,female}
+@attribute annual_income numeric
+@attribute spending_score numeric
+@data
+1,male,19,15,39
+2,male,21,15,81
+3,female,20,16,6
+4,female,23,16,77
+5,female,31,17,40
