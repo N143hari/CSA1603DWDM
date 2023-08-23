@@ -1,0 +1,13 @@
+@relation items
+@attribute bread{y,n}
+@attribute cheese{y,n}
+@attribute egg{y,n}
+@attribute juice{y,n}
+@attribute milk{y,n}
+@attribute yogurt{y,n}
+@data
+y,y,y,y,n,n
+y,y,n,y,n,n
+y,n,n,n,y,y
+y,n,n,y,y,n
+n,y,n,y,y,n
