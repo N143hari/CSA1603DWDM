@@ -1,0 +1,16 @@
+@relation items
+@attribute sony{y,n}
+@attribute BPL{y,n}
+@attribute LG{y,n}
+@attribute SAMSUNG{y,n}
+@attribute ONIDA{y,n}
+@data
+y,y,y,n,n
+n,y,n,y,n
+n,y,n,n,y
+y,y,n,y,n
+y,n,n,n,y
+n,y,n,n,y
+y,n,n,n,y
+y,y,y,n,y
+y,y,n,n,y
