@@ -1,0 +1,10 @@
+speed<-c(78,81,82,74,83,82,77,80,70)
+time<-c(39,37,36,42,35,36,40,38,46)
+v1<-sd(speed)
+v1
+v2<-sd(time)
+v2
+v3<-var(speed)
+v3
+v4<-var(time)
+v4
