@@ -1,0 +1,12 @@
+@relation items
+@attribute hotdog{y,n}
+@attribute bun{y,n}
+@attribute ketchup{y,n}
+@attribute coke{y,n}
+@attribute chips{y,n}
+@data
+y,y,y,n,n
+y,y,n,n,n
+y,n,n,y,y
+n,n,y,n,y
+y,n,n,y,y
