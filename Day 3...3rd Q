@@ -1,0 +1,13 @@
+@relation buy_computer
+@attribute age{young,middle,old}
+@attribute income{high,medium,low}
+@attribute student{yes,no}
+@attribute credit_rating{fair,excellent}
+@attribute class{yes,no}
+@data
+young high no fair yes
+young low no excellent no
+middle high no fair yes
+old medium yes fair yes
+old low yes fair no
+old low yes excellent no
