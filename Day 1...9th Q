@@ -1,0 +1,11 @@
+v<-c(50, 55, 55, 55, 58, 59, 60, 61, 63, 63, 65, 65, 67, 71, 71, 72, 75)
+bin1<-c(50, 55, 55, 55, 58, 59)
+bin2<-c(60, 61, 63, 63, 65, 65)
+bin3<-c(67, 71, 71, 72, 75)
+v1<-(max(bin1)-min(bin1))/3
+v2<-(max(bin2)-min(bin2))/3
+v3<-(max(bin4)-min(bin3))/3
+print(paste("equal width partioning of bin1 is",v1))
+print(paste("equal width partioning of bin1 is",v2))
+print(paste("equal width partioning of bin1 is",v3))
+hist(v)
